@@ -19,4 +19,5 @@ async function GetAdditional() {
 //   console.log(" -----------------------------------------------------")
 // }, 3000)
 
-module.exports = GetAdditional;
+// module.exports = GetAdditional;
+export default GetAdditional;

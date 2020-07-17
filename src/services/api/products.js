@@ -28,4 +28,5 @@ GetProducts()
 //   console.log(" -----------------------------------------------------")
 // }, 3000)
 
-module.exports = GetProducts;
+// module.exports = GetProducts;
+export default GetProducts;

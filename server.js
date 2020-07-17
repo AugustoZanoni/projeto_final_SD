@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 var cors = require('cors');
 app.use(cors());
-const porta = process.env.PORT || 3002;
+const porta = 3002;
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
