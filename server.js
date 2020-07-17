@@ -7,6 +7,11 @@ const porta = process.env.PORT || 3002;
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
+
+app.get('/', (req, res) => {
+
+  res.sendFile('./index.html', { root: __dirname })
+});
 const AllProducts = [
   {
     id: 1,
@@ -81,6 +86,8 @@ const AllAdditional = [
     price: "R$3,00"
   }, 
 ]
+
+
 
 app.get("/cardapio", (req, res) => {
   res.send(JSON.stringify(AllProducts));
