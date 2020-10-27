@@ -1,68 +1,78 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h1 align="center">
+   Artesanal Ayres Pedidos
+</h1>
 
-In the project directory, you can run:
+<div align="center">
 
-### `yarn start`
+  #### Sistema de pedidos online integrado ao WhatsApp
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  ![](https://img.shields.io/badge/autor-Pier%20Guinzani-purple)
+  ![](https://img.shields.io/badge/autor-Augusto%20Zanoni-orange)
+  ![](https://img.shields.io/badge/Back--End-NodeJS-blue)
+  ![](https://img.shields.io/badge/Front--End-ReactJS-yellow)
+  ![](https://img.shields.io/badge/Integraçãp-WhatsApp-brightgreen)
+  
+</div> 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="center">
+💻 Projeto Final da Disciplina de Sistemas Distribuídos 💻
+</p>
 
-### `yarn test`
+<br>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :rocket: Tecnologias
 
-### `yarn build`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [HTML](https://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html)
+- [CSS](https://devdocs.io/css/)
+- [Express](https://expressjs.com/pt-br/)
+- [Axios](https://www.axios.com)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 💻 Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O **Artesanal Ayres Pedidos** é um sistema de pedidos online da Hamburgueria ludovicense Artesanal Ayres, que integrado ao WhatsApp facilita o processo de padronização dos pedidos e direcionamento para apenas um canal (o WhatsApp).
 
-### `yarn eject`
+## 🤔 Como rodar o projeto?
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Clone este repositório com
+```json
+git clone https://github.com/pierguinzani/projeto_final_sistemas_distribuidos
+```
+- entre na pasta do projeto final
+```json
+cd projeto_final_SD
+```
+- entre na pasta do backend, instale as bibliotecas e rode o servidor
+```
+cd Back-end
+```
+```
+yarn
+```
+```
+yarn start
+```
+- entre na pasta do frontend, instale as bibliotecas e rode o projeto
+```
+cd Front-end
+```
+```
+yarn
+```
+```
+yarn start
+```
+- Acesse o projeto em http://localhost:3000
+## :memo: Acesse o projeto no Heroku
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://artesanal-ayres.herokuapp.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Feito na base do ódio ❤️
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
